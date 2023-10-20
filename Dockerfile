@@ -7,7 +7,7 @@ COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 
 # Use GCC to compile the main.cpp source file
-RUN g++ -o myapp src/main.cpp
+RUN g++ -o myapp src/main.cpp src/linkedList.cpp
 
 # Run the program output from the previous step
 CMD ["./gameengine"]

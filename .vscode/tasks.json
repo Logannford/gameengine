@@ -10,7 +10,9 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-I",
+                "${workspaceFolder}/include"  // Specify the include path to your "include" directory
             ],
             "options": {
                 "cwd": "${fileDirname}"

@@ -3,11 +3,17 @@
 
 int main()
 {
-    std::cout << "Hello World!" << std::endl;
-
     Node* test = nullptr;
-    test->addNode(&test, 10);
+    test->unshift(&test, 10);
+    test->unshift(&test, 20);
+    test->push(&test, 5);
+    test->push(&test, 1);
+    test->push(&test, 30);
 
-    std::cout << test->data << std::endl;
+    std::cout << *test << std::endl;
+
+    test->remove(&test, 20);
+
+    std::cout << *test << std::endl;
     return 0;
 }

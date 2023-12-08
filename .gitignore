@@ -1,0 +1,22 @@
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Generated files
+bin/
+build/
+lib/
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Visual Studio Code specific files
+.vscode/

@@ -6,6 +6,7 @@ CTestTestfile.cmake
 Makefile
 CPackConfig.cmake
 CPackSourceConfig.cmake
+DartConfiguration.tcl
 
 # Generated files
 bin/

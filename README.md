@@ -1,6 +1,6 @@
 # gameengine
 
-A first attempt at creating a 2D game engine with c++.
+2D game engine with C++.
 
 ### Features of the Engine
 

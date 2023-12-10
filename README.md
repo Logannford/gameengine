@@ -16,4 +16,6 @@
 
 ### Compiling the project
 
--
+- First time running - run 'cmake .'
+- Then use 'make' once local changes have been made - this will compile the project
+- Run './2D-game-engine' to run 'main.cpp'
